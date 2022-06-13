@@ -1,11 +1,11 @@
 {
-  "name": "settle.acceptance.js",
-  "version": "0.5.4",
+  "name": "@settleapi/acceptance",
+  "version": "1.0.0",
   "description": "Settle Acceptance library",
-  "homepage": "https://github.com/aukaio/settle.acceptance.js",
+  "homepage": "https://github.com/SettleAPI/settle.acceptance.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/aukaio/settle.acceptance.js.git"
+    "url": "git://github.com/SettleAPI/settle.acceptance.js.git"
   },
   "scripts": {
     "build": "./node_modules/grunt-cli/bin/grunt",
@@ -22,5 +22,8 @@
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-inline-import": "^0.1.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }

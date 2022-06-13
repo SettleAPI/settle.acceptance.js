@@ -5,6 +5,18 @@ A standalone JavaScript library that helps you display QR-codes or "Pay with Set
 On a phone a button will be shown, that when pressed opens the Settle app and makes a call to Settle.
 If the phone does not have Settle installed the user will be redirected to GooglePlay or AppStore.
 
+Installing the library
+--------------------
+NPM:
+```
+npm install @settleapi/acceptance
+```
+
+Yarn:
+```
+yarn add @settleapi/acceptance
+```
+
 Building the library
 --------------------
 You need `npm` from [node.js](http://nodejs.org/) to build this library.
